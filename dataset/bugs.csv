@@ -1,0 +1,4 @@
+code,bug_type,severity
+password='admin123',Hardcoded Secret,High
+eval(user_input),Code Injection,Critical
+SELECT * FROM users WHERE id='+user,SQL Injection,Critical
